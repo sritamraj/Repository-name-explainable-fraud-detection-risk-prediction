@@ -1,0 +1,17 @@
+random_state: 42
+data:
+  n_samples: 30000
+  fraud_rate: 0.035
+  path: data/transactions.csv
+model:
+  test_size: 0.20
+  validation_size: 0.20
+  max_depth: 5
+  n_estimators: 350
+  learning_rate: 0.05
+decision:
+  review_threshold: 0.35
+  block_threshold: 0.75
+costs:
+  false_negative: 1000
+  false_positive: 25
