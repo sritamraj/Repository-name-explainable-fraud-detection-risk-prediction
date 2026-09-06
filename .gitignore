@@ -6,3 +6,4 @@ __pycache__/
 data/*.csv
 reports/*.joblib
 reports/*.png
+reports/test_predictions.csv

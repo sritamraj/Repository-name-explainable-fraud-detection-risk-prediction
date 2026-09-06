@@ -1,0 +1,16 @@
+experiment,dataset,metric,value
+Logistic Regression baseline,validation,PR-AUC,0.3484
+Logistic Regression baseline,validation,ROC-AUC,0.8201
+Raw XGBoost,validation,PR-AUC,0.2893
+Calibrated XGBoost,validation,PR-AUC,0.3066
+Calibrated XGBoost,held-out test,PR-AUC,0.2781
+Calibrated XGBoost,held-out test,ROC-AUC,0.8188
+Raw XGBoost,held-out test,Brier score,0.0506
+Calibrated XGBoost,held-out test,Brier score,0.029
+Cost-sensitive policy,held-out test,threshold,0.05
+Cost-sensitive policy,held-out test,precision,0.17357
+Cost-sensitive policy,held-out test,recall,0.52913
+Cost-sensitive policy,held-out test,total cost,12295.0
+FN cost = 50,validation,optimal threshold,0.1
+FN cost = 100,validation,optimal threshold,0.05
+FN cost = 200,validation,optimal threshold,0.02
